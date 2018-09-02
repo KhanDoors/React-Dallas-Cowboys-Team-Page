@@ -5,6 +5,8 @@ import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Button from "@material-ui/core/Button";
 
+import { CowboyLogo } from "../ui/icons";
+
 class Header extends Component {
   render() {
     return (
@@ -19,8 +21,18 @@ class Header extends Component {
       >
         <Toolbar style={{ display: "flex" }}>
           <div style={{ flexGrow: 1 }}>
-            <div className="header_logo">Logo</div>
+            <div className="header_logo">
+              <CowboyLogo link={true} linkTo="/" height="70px" width="70px" />
+            </div>
           </div>
+
+          <Link to="/the_team">
+            <Button color="inherit">The Team</Button>
+          </Link>
+
+          <Link to="/the_matches">
+            <Button color="inherit">Games</Button>
+          </Link>
         </Toolbar>{" "}
       </AppBar>
     );
