@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { easePolyOut } from "d3-ease";
 import Animate from "react-move/Animate";
 import Otamendi from "../../../Resources/images/players/Otamendi.png";
+import PlayerCard from "../../ui/playerCard";
 
 class HomeCards extends Component {
   state = {
@@ -49,7 +50,12 @@ class HomeCards extends Component {
                 bottom
               }}
             >
-              divvy
+              <PlayerCard
+                number="30"
+                name="Nick"
+                lastname="otamendi"
+                bck={Otamendi}
+              />
             </div>
           );
         }}
