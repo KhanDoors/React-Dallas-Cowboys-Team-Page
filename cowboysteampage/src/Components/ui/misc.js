@@ -9,6 +9,7 @@ export const Tag = props => {
         fontSize: props.size,
         color: props.color,
         padding: "5px 10px",
+        display: "inline-block",
         fontFamily: "Righteous"
       }}
     >
