@@ -6,16 +6,16 @@ const MatchesHome = () => {
   return (
     <div className="home_matches_wrapper">
       <div className="container">
-        <Tag bck="#0e1731" size="50px" color="#ffffff">
+        <Tag bck="#0e1731" size="50px" color="silver">
           Games
         </Tag>
 
         <Blocks />
 
         <Tag
-          bck="#ffffff"
+          bck="blue"
           size="22px"
-          color="#0e1731"
+          color="silver"
           link={true}
           linkto="/the_team"
         >
