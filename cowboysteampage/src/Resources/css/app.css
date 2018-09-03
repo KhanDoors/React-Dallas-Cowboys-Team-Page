@@ -185,7 +185,7 @@ footer .footer_discl {
 
 .featured_number {
   font-size: 270px;
-  color: #ffffff;
+  color: darkblue;
   transform: translate(260px, 170px);
   position: absolute;
 }
@@ -200,7 +200,7 @@ footer .footer_discl {
 .featured_first {
   position: absolute;
   background: #0e1731;
-  color: #ffffff;
+  color: silver;
   font-size: 92px;
   text-transform: uppercase;
   padding: 0px 20px;
@@ -209,7 +209,7 @@ footer .footer_discl {
 .featured_second {
   position: absolute;
   background: #0e1731;
-  color: #ffffff;
+  color: silver;
   font-size: 92px;
   text-transform: uppercase;
   padding: 0px 20px;
