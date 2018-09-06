@@ -25,7 +25,11 @@ class Header extends Component {
               <CowboyLogo link={true} linkTo="/" height="70px" width="70px" />
             </div>
           </div>
-
+          <div>
+            <div className="container">
+              <h1>Dallas Cowboys</h1>
+            </div>
+          </div>
           <Link to="/the_team">
             <Button color="inherit">The Team</Button>
           </Link>
