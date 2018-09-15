@@ -425,7 +425,7 @@ footer .footer_discl {
   position: relative;
 }
 .player_card_wrapper .player_card_number {
-  color: darkblue;
+  color: #01285e;
   font-size: 185px;
   text-align: right;
   line-height: 160px;
@@ -465,7 +465,7 @@ footer .footer_discl {
   font-size: 150px;
   font-family: "Righteous", cursive;
   flex-grow: 1;
-  color: #d5ebfd;
+  color: #01285e;
   line-height: 135px;
 }
 .promotion_wrapper .promotion_animation .left span {

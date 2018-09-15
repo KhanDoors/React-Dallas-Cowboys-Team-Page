@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import { easePolyOut } from "d3-ease";
 import Animate from "react-move/Animate";
 
-import FeaturedPlayer from "../../../Resources/images/featured_player.jpg";
+// import FeaturedPlayer from "../../../Resources/images/featured_player.jpg";
+import zeke from "../../../Resources/images/zekecutout.png";
 
 class Text extends Component {
   animateNumber = () => (
@@ -114,7 +115,7 @@ class Text extends Component {
             className="featured_player"
             style={{
               opacity,
-              background: `url(${FeaturedPlayer})`,
+              background: `url(${zeke})`,
               transform: `translate(550px,201px)`
             }}
           />
