@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Fade from "react-reveal/Fade";
 import FormField from "../../ui/formFields";
+import { validate } from "../../ui/misc";
 
 class Enroll extends Component {
   state = {
@@ -26,7 +27,21 @@ class Enroll extends Component {
   };
 
   updateForm(element) {
-    const newFormdata = {};
+    const newFormdata = { ...this.state.formdata };
+    const newElement = { ...newFormdata[element.id] };
+
+    newElement.value = element.event.target.value;
+
+    let valiData = validate(newElement);
+    newElement.valid = valiData[0];
+    newElement.validationMessage = valiData[1];
+
+    newFormdata[element.id] = newElement;
+    console.log(newFormdata);
+
+    this.setState({
+      formdata: newFormdata
+    });
   }
 
   submitForm = event => {};
